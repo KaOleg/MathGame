@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Математический тест</title>
+        <link rel="stylesheet" href="style.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <section class="game">
+            <div class="operation">
+                <h2>Нажми на кнопки что-бы выбрать задание</h2>
+                <div class="buttons">
+                    <button id="plus">Сложить(+)</button>
+                    <button id="minus">Вычесть(-)</button>
+                    <button id="div">Разделить(/)</button>
+                    <button id="mult">Умножить(*)</button>
+                </div>
+            </div>
+            <div class="levels">
+                <select id="levels">
+                    <option value="easy">Легкий(от 1 до 9)</option>
+                    <option value="medium">Средний(от 10 до 99)</option>
+                    <option value="hard">Сложный(от 100 до 999)</option>
+                </select>
+            </div>
+            <div class="stats">
+                <button id="show-stats">Показать статистику</button>
+                <button id="reset-stats">Сбросить статистику</button>
+            </div>
+        </section>
+        <script src="script.js"></script>
+    </body>
+</html>

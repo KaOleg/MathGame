@@ -1,0 +1,47 @@
+*{
+    font-family: 'Ubuntu', sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0px;
+    background-color: #82ccdd;
+}
+.game{
+    padding: 30px;
+    background-color: white;
+    box-shadow: 10px -10px 3px rgba(0, 0, 0, 0.404);
+    border-radius: 10px;
+}
+button{
+    border: none;
+    padding: 20px 30px;
+    font-size: 20px;
+    border-radius: 40px;
+    margin-right: 10px;
+}
+#plus{
+    background-color: cyan;
+}
+#minus{
+    background-color: coral;
+}
+#div{
+    background-color: forestgreen;
+}
+#mult{
+    background-color: darkorange;
+}
+select{
+    border: none;
+    padding: 20px;
+    margin: 40px 0px;
+    display: block;
+    width: 100%;
+    outline: none;
+    border: 1px crimson solid;
+    font-size: 20px;
+    border-radius: 10px;
+}
