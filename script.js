@@ -56,10 +56,11 @@ select.onchange = function () {
         max = 999;
     }
 };
-// 1) Создать две новые переменные: correctAnswers и wrongAnswers 
-// 2) Когда человек прав увеличивать correctAnswers
-// 3) Когда человек ошибается увеличивать wrongAnswers
-// 4) Когда человек нажимает на кнопку показать статистику, создавать alert команду с сообщением: 
-// Правильных ответов: 
-// Неправильных ответов:
-
+showSt.onclick = function () {
+    alert("Правильных ответов: " + correctAnswers + "\nНеправильных ответов: " + wrongAnswers)
+}
+resetSt.onclick = function () {
+   correctAnswers = 0
+   wrongAnswers = 0
+   alert("Ваша статистика сброшена.")
+}
